@@ -1,4 +1,4 @@
-# tyDec
+# tyInstance
 
 tyInstance is a instance creator helper in typescript.
 
