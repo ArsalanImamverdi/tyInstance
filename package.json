@@ -1,6 +1,6 @@
 {
   "name": "tyinstance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Instace create helper",
   "main": "index.js",
   "scripts": {
