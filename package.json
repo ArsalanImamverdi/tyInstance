@@ -1,0 +1,41 @@
+{
+  "name": "tyinstance",
+  "version": "1.0.0",
+  "description": "Instace create helper",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "test": "jest --config jestconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArsalanImamverdi/tyInstance.git"
+  },
+  "keywords": [
+    "Instance",
+    "typescript"
+  ],
+  "author": "MohamadArsalan Imamverdi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArsalanImamverdi/tyInstance/issues"
+  },
+  "homepage": "https://github.com/ArsalanImamverdi/tyInstance#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.3",
+    "jest": "^28.1.1",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.5",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "tydec": "^1.0.2"
+  }
+}
